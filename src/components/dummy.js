@@ -1,5 +1,5 @@
 //declear a state
-export const stateArray = ["New York", "Alabama"]
+export const stateArray = ["New York", "Alabama", "Alaska"]
 
 export const cityArray = [{
     city: 'Alabaster',
@@ -8,8 +8,6 @@ export const cityArray = [{
     city: 'Albertville',
     state: 'Alabama'
 }, {
-    
-
 
     city: 'Gustavus',
     state: 'Alaska'
@@ -18,49 +16,54 @@ export const cityArray = [{
     state: 'Alaska'
 },
 {
-    city: 'Addison',
+    city: 'Elmira',
     state: 'Alaska'
 }, {
+    city: 'Addison',
+    state: 'New York'
+}, {
+    city: 'Corning',
+    state: 'New York'
 }]
 
 //all the store
 export const storeArray = [{
     store: 'Cat store  Albany',
     type: 'CAT',
-    city: 'Albany'
+    city: 'Alabaster'
 }, {
     store: 'Dog store Albany',
     type: 'DOG',
-    city: 'Albany'
+    city: 'Alabaster'
 }, {
     store: 'Horse store Albany',
     type: 'HORSE',
-    city: 'Albany'
+    city: 'New York'
 },
 {
     store: 'Cat store Norwich',
     type: 'CAT',
-    city: 'Norwich'
+    city: 'Alaska'
 }, {
     store: 'Dog store Norwich',
     type: 'DOG',
-    city: 'Norwich'
+    city: 'Alaska'
 }, {
     store: 'Horse store Norwich',
     type: 'HORSE',
-    city: 'Norwich'
+    city: 'Alabaster'
 }, {
     store: 'Cat store Oswego',
     type: 'CAT',
-    city: 'Oswego'
+    city: 'Alaska'
 }, {
     store: 'Dog store Oswego',
     type: 'DOG',
-    city: 'Oswego'
+    city: 'Alabaster'
 }, {
     store: 'Horse store Oswego',
     type: 'HORSE',
-    city: 'Oswego'
+    city: 'Alaska'
 }, {
     store: 'Cat store Addison',
     type: 'CAT',
@@ -68,17 +71,29 @@ export const storeArray = [{
 }, {
     store: 'Horse store Addison',
     type: 'HORSE',
-    city: 'Addison'
+    city: 'Houston'
 }, {
     store: 'Horse store Black',
     type: 'HORSE',
-    city: 'Black'
+    city: 'Corning'
 }, {
     store: 'Cat store Black',
     type: 'CAT',
-    city: 'Black'
+    city: 'New Corning'
 }, {
     store: 'Horse store Black',
     type: 'HORSE',
-    city: 'Black'
+    city: 'New Corning'
+},{
+    store: 'Horse store Black',
+    type: 'HORSE',
+    city: 'Elmira'
+},{
+    store: 'Horse store Black',
+    type: 'HORSE',
+    city: 'Elmira'
+},{
+    store: 'Horse store Black',
+    type: 'HORSE',
+    city: 'Elmira'
 }]

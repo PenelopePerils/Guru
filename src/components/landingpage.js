@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
 import Grid from './grid';
 import Cell from './cell';
+
 class Landing extends Component {
     render() {
         return (
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid" />
-                <Cell col={12} />
+                <Cell col={2} />
                 <img
-                    src="https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_960_720.png"
+                    src="https://cdn.pixabay.com/photo/2018/01/15/01/38/portrait-3083009__340.jpg"
                     alt="avatar"
                     className="avatar-img"
                 />
                 <div>
                     <div className="banner-text">
-                        <h1>I am learning</h1>
+                        <h1>Nobody Puts Us in The Corner</h1>
                         <hr />
-                        <p>Learn | Be Happy | Succeed </p>
+                        <p>  Be Vibrant | Be Happy | Be You | Be Forever Young </p>
 
                         <div className="social-links">
 

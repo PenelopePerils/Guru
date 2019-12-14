@@ -10,30 +10,31 @@ class App extends Component {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="New Title" scroll>
+        <Header className="header-color" title="GRAYt" scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/blog">Blog</Link>
+                {/* <Link to="/resume">Resume</Link> */}
+                {/* <Link to="/aboutme">About Me</Link> */}
+                {/* <Link to="/projects">Projects</Link> */}
                 <Link to="/directory">Directory</Link>
+                <Link to="/podcast">Podcast</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="New Title">
+        <Drawer title="GRAYt">
             <Navigation>
-            <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-                {/* <Link to="/blog">Blog</Link> */}
+            {/* <Link to="/resume">Resume</Link> */}
+                {/* <Link to="/aboutme">About Me</Link> */}
+                {/* <Link to="/projects">Projects</Link> */}
+                {/* <Link to="/pocast">Podcast</Link> */}
                 <Link to="/directory">Directory</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
-            <Main/>
-        </Content>
+<div style={{ margin: 30 }}>
+<Main />
+</div>
+</Content>
     </Layout>
 </div>
   );
